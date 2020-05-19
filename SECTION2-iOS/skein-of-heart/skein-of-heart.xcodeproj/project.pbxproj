@@ -18,6 +18,7 @@
 		874C2AED24483A2C00542A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874C2AEC24483A2C00542A16 /* Assets.xcassets */; };
 		874C2AF024483A2C00542A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874C2AEE24483A2C00542A16 /* LaunchScreen.storyboard */; };
 		87512F062472CCB800BFB1F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */; };
+		87EB439124745994004FD8A8 /* DiaryTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB439024745994004FD8A8 /* DiaryTabBarViewController.swift */; };
 		BE8880EC13940EFB0C19DB86 /* Pods_skein_of_heart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A630FE37700CFFFCFE5FCF90 /* Pods_skein_of_heart.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		874C2AEF24483A2C00542A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874C2AF124483A2C00542A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87EB439024745994004FD8A8 /* DiaryTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTabBarViewController.swift; sourceTree = "<group>"; };
 		A630FE37700CFFFCFE5FCF90 /* Pods_skein_of_heart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skein_of_heart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				8720C6D92466E04600DD1DB0 /* DiaryPagesTableViewController.swift */,
 				8720C6D52466E00E00DD1DB0 /* DiaryPageViewController.swift */,
 				874C2AE924483A2800542A16 /* Main.storyboard */,
+				87EB439024745994004FD8A8 /* DiaryTabBarViewController.swift */,
 				87137F82246B1D770047790C /* Diary.swift */,
 				874C2AEC24483A2C00542A16 /* Assets.xcassets */,
 				874C2AEE24483A2C00542A16 /* LaunchScreen.storyboard */,
@@ -247,6 +250,7 @@
 				87137F88246B29110047790C /* LogInViewController.swift in Sources */,
 				874C2AE424483A2800542A16 /* AppDelegate.swift in Sources */,
 				874C2AE624483A2800542A16 /* SceneDelegate.swift in Sources */,
+				87EB439124745994004FD8A8 /* DiaryTabBarViewController.swift in Sources */,
 				87137F83246B1D770047790C /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
