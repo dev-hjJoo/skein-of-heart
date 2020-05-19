@@ -8,15 +8,31 @@
 
 import UIKit
 
-class DiaryPageViewController: UIViewController {
+class DiaryPageViewController: UIViewController, UITextViewDelegate {
 
+    @IBOutlet weak var textView: UITextView!
+    var countOfText: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        textView.delegate = self
+        textView.textColor = UIColor.lightGray
+        textView.text = "오늘 하루 어떤 하루를 보내셨나요? :)"
     }
     
-
+    // MARK: textView 관련 Methods
+    // PlaceHolder 설정: 편집이 시작될 때 내용 지워지게 하기
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        textView.text = ""
+        textView.textColor = UIColor.black
+        
+    }
+    
+    
+   
+    
+    
     /*
     // MARK: - Navigation
 

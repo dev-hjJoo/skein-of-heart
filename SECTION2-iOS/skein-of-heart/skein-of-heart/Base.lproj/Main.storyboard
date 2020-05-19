@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="54G-M9-sDD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Log In View Controller-->
+        <scene sceneID="qOW-Sm-baz">
+            <objects>
+                <viewController id="54G-M9-sDD" customClass="LogInViewController" customModule="skein_of_heart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yZv-Ie-Fgu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fm5-2L-bpG" customClass="GIDSignInButton">
+                                <rect key="frame" x="92" y="524" width="230" height="48"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="UXp-3q-m7h"/>
+                                    <constraint firstAttribute="height" constant="48" id="jqD-W2-xVs"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="signIn:" destination="54G-M9-sDD" eventType="valueChanged" id="vL3-OB-UDT"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Fm5-2L-bpG" firstAttribute="centerX" secondItem="yZv-Ie-Fgu" secondAttribute="centerX" id="MHh-iw-l0H"/>
+                            <constraint firstItem="Fm5-2L-bpG" firstAttribute="centerY" secondItem="yZv-Ie-Fgu" secondAttribute="centerY" constant="100" id="ngj-Bl-RxA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hdJ-rI-eGj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ohc-5Y-5AI"/>
+                    <connections>
+                        <outlet property="signInButton" destination="Fm5-2L-bpG" id="gIg-Ll-f16"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YVl-A4-s0W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-30.434782608695656" y="20.758928571428569"/>
+        </scene>
+    </scenes>
 </document>

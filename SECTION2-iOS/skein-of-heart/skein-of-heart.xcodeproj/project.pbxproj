@@ -3,33 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87137F83246B1D770047790C /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87137F82246B1D770047790C /* Diary.swift */; };
+		87137F88246B29110047790C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87137F87246B29110047790C /* LogInViewController.swift */; };
 		8720C6D62466E00E00DD1DB0 /* DiaryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C6D52466E00E00DD1DB0 /* DiaryPageViewController.swift */; };
 		8720C6D82466E03700DD1DB0 /* DiariesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C6D72466E03700DD1DB0 /* DiariesTableViewController.swift */; };
 		8720C6DA2466E04600DD1DB0 /* DiaryPagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720C6D92466E04600DD1DB0 /* DiaryPagesTableViewController.swift */; };
 		874C2AE424483A2800542A16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C2AE324483A2800542A16 /* AppDelegate.swift */; };
 		874C2AE624483A2800542A16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C2AE524483A2800542A16 /* SceneDelegate.swift */; };
-		874C2AE824483A2800542A16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C2AE724483A2800542A16 /* ViewController.swift */; };
 		874C2AEB24483A2800542A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874C2AE924483A2800542A16 /* Main.storyboard */; };
 		874C2AED24483A2C00542A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874C2AEC24483A2C00542A16 /* Assets.xcassets */; };
 		874C2AF024483A2C00542A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874C2AEE24483A2C00542A16 /* LaunchScreen.storyboard */; };
+		87512F062472CCB800BFB1F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */; };
+		BE8880EC13940EFB0C19DB86 /* Pods_skein_of_heart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A630FE37700CFFFCFE5FCF90 /* Pods_skein_of_heart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23D1CBE5DB900D7E3344D775 /* Pods-skein-of-heart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skein-of-heart.release.xcconfig"; path = "Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart.release.xcconfig"; sourceTree = "<group>"; };
+		4B827B088B8E61D764E604A5 /* Pods-skein-of-heart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skein-of-heart.debug.xcconfig"; path = "Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart.debug.xcconfig"; sourceTree = "<group>"; };
+		87137F82246B1D770047790C /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		87137F87246B29110047790C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		8720C6D52466E00E00DD1DB0 /* DiaryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryPageViewController.swift; sourceTree = "<group>"; };
 		8720C6D72466E03700DD1DB0 /* DiariesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesTableViewController.swift; sourceTree = "<group>"; };
 		8720C6D92466E04600DD1DB0 /* DiaryPagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryPagesTableViewController.swift; sourceTree = "<group>"; };
 		874C2AE024483A2800542A16 /* skein-of-heart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skein-of-heart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		874C2AE324483A2800542A16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		874C2AE524483A2800542A16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		874C2AE724483A2800542A16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		874C2AEA24483A2800542A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		874C2AEC24483A2C00542A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874C2AEF24483A2C00542A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874C2AF124483A2C00542A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A630FE37700CFFFCFE5FCF90 /* Pods_skein_of_heart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skein_of_heart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8880EC13940EFB0C19DB86 /* Pods_skein_of_heart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BC6CE8FED4DA5E1BF393988 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B827B088B8E61D764E604A5 /* Pods-skein-of-heart.debug.xcconfig */,
+				23D1CBE5DB900D7E3344D775 /* Pods-skein-of-heart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		874C2AD724483A2800542A16 = {
 			isa = PBXGroup;
 			children = (
 				874C2AE224483A2800542A16 /* skein-of-heart */,
 				874C2AE124483A2800542A16 /* Products */,
+				3BC6CE8FED4DA5E1BF393988 /* Pods */,
+				9F360A5D1850F5A7476615DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,16 +84,26 @@
 			children = (
 				874C2AE324483A2800542A16 /* AppDelegate.swift */,
 				874C2AE524483A2800542A16 /* SceneDelegate.swift */,
-				874C2AE724483A2800542A16 /* ViewController.swift */,
 				8720C6D72466E03700DD1DB0 /* DiariesTableViewController.swift */,
 				8720C6D92466E04600DD1DB0 /* DiaryPagesTableViewController.swift */,
 				8720C6D52466E00E00DD1DB0 /* DiaryPageViewController.swift */,
 				874C2AE924483A2800542A16 /* Main.storyboard */,
+				87137F82246B1D770047790C /* Diary.swift */,
 				874C2AEC24483A2C00542A16 /* Assets.xcassets */,
 				874C2AEE24483A2C00542A16 /* LaunchScreen.storyboard */,
 				874C2AF124483A2C00542A16 /* Info.plist */,
+				87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */,
+				87137F87246B29110047790C /* LogInViewController.swift */,
 			);
 			path = "skein-of-heart";
+			sourceTree = "<group>";
+		};
+		9F360A5D1850F5A7476615DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A630FE37700CFFFCFE5FCF90 /* Pods_skein_of_heart.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 874C2AF424483A2C00542A16 /* Build configuration list for PBXNativeTarget "skein-of-heart" */;
 			buildPhases = (
+				6E79ED8573EB4F2BA39826BF /* [CP] Check Pods Manifest.lock */,
 				874C2ADC24483A2800542A16 /* Sources */,
 				874C2ADD24483A2800542A16 /* Frameworks */,
 				874C2ADE24483A2800542A16 /* Resources */,
+				0EC009AF4F37A80B72BC9381 /* [CP] Embed Pods Frameworks */,
+				CAE2E3DDFBC9F7EA4A5B9CE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,6 +141,7 @@
 				TargetAttributes = {
 					874C2ADF24483A2800542A16 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -137,10 +171,70 @@
 				874C2AF024483A2C00542A16 /* LaunchScreen.storyboard in Resources */,
 				874C2AED24483A2C00542A16 /* Assets.xcassets in Resources */,
 				874C2AEB24483A2800542A16 /* Main.storyboard in Resources */,
+				87512F062472CCB800BFB1F1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC009AF4F37A80B72BC9381 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E79ED8573EB4F2BA39826BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-skein-of-heart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE2E3DDFBC9F7EA4A5B9CE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-skein-of-heart/Pods-skein-of-heart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		874C2ADC24483A2800542A16 /* Sources */ = {
@@ -148,11 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8720C6DA2466E04600DD1DB0 /* DiaryPagesTableViewController.swift in Sources */,
-				874C2AE824483A2800542A16 /* ViewController.swift in Sources */,
 				8720C6D62466E00E00DD1DB0 /* DiaryPageViewController.swift in Sources */,
 				8720C6D82466E03700DD1DB0 /* DiariesTableViewController.swift in Sources */,
+				87137F88246B29110047790C /* LogInViewController.swift in Sources */,
 				874C2AE424483A2800542A16 /* AppDelegate.swift in Sources */,
 				874C2AE624483A2800542A16 /* SceneDelegate.swift in Sources */,
+				87137F83246B1D770047790C /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +389,10 @@
 		};
 		874C2AF524483A2C00542A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B827B088B8E61D764E604A5 /* Pods-skein-of-heart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6HZPF82MN3;
 				INFOPLIST_FILE = "skein-of-heart/Info.plist";
@@ -305,6 +402,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ight.hyozJo-o.student.skein-of-heart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,8 +410,10 @@
 		};
 		874C2AF624483A2C00542A16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D1CBE5DB900D7E3344D775 /* Pods-skein-of-heart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6HZPF82MN3;
 				INFOPLIST_FILE = "skein-of-heart/Info.plist";
