@@ -21,10 +21,18 @@ class LogInViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-      super.viewDidLoad()
-      GIDSignIn.sharedInstance()?.presentingViewController = self
-      // TODO(developer) Configure the sign-in button look/feel
-      // ...
+        super.viewDidLoad()
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+      
+        Auth.auth().addStateDidChangeListener({ (user, err) in
+            if user != nil {
+                // 로그인이 이미 된 상태면 화면 이동 
+                self.performSegue(withIdentifier: "Home", sender: nil)
+                print("화면 호출")
+            } else {
+                self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
+            }
+        })
     }
     
 
