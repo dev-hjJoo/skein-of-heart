@@ -22,7 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         FirebaseApp.configure()
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
-      return true
+        
+        // MARK: DB(firebase) 사용 초기 작업
+        let db = Firestore.firestore()
+        
+        return true
     }
     
     // MARK: - 로그인 URL처리

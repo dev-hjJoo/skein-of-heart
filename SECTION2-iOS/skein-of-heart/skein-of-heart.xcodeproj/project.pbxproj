@@ -15,6 +15,7 @@
 		874C2AED24483A2C00542A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874C2AEC24483A2C00542A16 /* Assets.xcassets */; };
 		874C2AF024483A2C00542A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874C2AEE24483A2C00542A16 /* LaunchScreen.storyboard */; };
 		87512F062472CCB800BFB1F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */; };
+		87C280712478F54E00C1314B /* addDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C280702478F54E00C1314B /* addDiaryViewController.swift */; };
 		87EB439124745994004FD8A8 /* DiaryTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB439024745994004FD8A8 /* DiaryTabBarViewController.swift */; };
 		87EB439524745F34004FD8A8 /* MyLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB439424745F34004FD8A8 /* MyLibraryViewController.swift */; };
 		87EB43972474663E004FD8A8 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB43962474663E004FD8A8 /* UserInfoViewController.swift */; };
@@ -34,6 +35,7 @@
 		874C2AEF24483A2C00542A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874C2AF124483A2C00542A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87C280702478F54E00C1314B /* addDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDiaryViewController.swift; sourceTree = "<group>"; };
 		87EB439024745994004FD8A8 /* DiaryTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTabBarViewController.swift; sourceTree = "<group>"; };
 		87EB439424745F34004FD8A8 /* MyLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibraryViewController.swift; sourceTree = "<group>"; };
 		87EB43962474663E004FD8A8 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				87512F052472CCB800BFB1F1 /* GoogleService-Info.plist */,
 				87137F87246B29110047790C /* LogInViewController.swift */,
 				87EB439424745F34004FD8A8 /* MyLibraryViewController.swift */,
+				87C280702478F54E00C1314B /* addDiaryViewController.swift */,
 				87EB43962474663E004FD8A8 /* UserInfoViewController.swift */,
 				87EB439024745994004FD8A8 /* DiaryTabBarViewController.swift */,
 				87137F82246B1D770047790C /* Diary.swift */,
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C280712478F54E00C1314B /* addDiaryViewController.swift in Sources */,
 				87EB439524745F34004FD8A8 /* MyLibraryViewController.swift in Sources */,
 				87EB43972474663E004FD8A8 /* UserInfoViewController.swift in Sources */,
 				87137F88246B29110047790C /* LogInViewController.swift in Sources */,

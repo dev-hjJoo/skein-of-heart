@@ -12,7 +12,10 @@ import FirebaseAuth
 class UserInfoViewController: UIViewController {
 
     // MARK: Outlets
+    @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userEmail: UILabel!
+    @IBOutlet weak var userImage: UIImageView!
+    
     
     // MARK: Actions
     @IBAction func LogOut(_ sender: Any) {
@@ -24,11 +27,24 @@ class UserInfoViewController: UIViewController {
         }
         dismiss(animated: true, completion: nil)
     }
+//    
+//    func touchToPickPhoto() {
+//        
+//    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // MARK: 로그인
+        userName.text = (Auth.auth().currentUser?.displayName)!+" 의 로그인 정보"
+        userEmail.text = Auth.auth().currentUser?.email
 
-        // Do any additional setup after loading the view.
+        /*
+        // MARK: ImageView 터치 인식
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(touchToPickPhoto()))
+        userImage.addGestureRecognizer(tapGesture)
+        userImage.isUserInteractionEnabled(true)
+         */
     }
     
 
