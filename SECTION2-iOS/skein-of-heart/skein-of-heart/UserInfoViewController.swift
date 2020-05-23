@@ -16,13 +16,13 @@ class UserInfoViewController: UIViewController {
     
     // MARK: Actions
     @IBAction func LogOut(_ sender: Any) {
+        let firebaseAuth = Auth.auth()
         do {
-            try Auth.auth().signOut()
-        } catch  {
-            print(error)
+          try firebaseAuth.signOut()
+        } catch let signOutError as NSError {
+          print ("Error signing out: %@", signOutError)
         }
         dismiss(animated: true, completion: nil)
-        
     }
     
     override func viewDidLoad() {
