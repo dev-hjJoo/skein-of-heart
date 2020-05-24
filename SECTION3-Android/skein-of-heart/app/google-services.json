@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "252287405834",
+    "firebase_url": "https://skein-of-heart-login.firebaseio.com",
+    "project_id": "skein-of-heart-login",
+    "storage_bucket": "skein-of-heart-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252287405834:android:98cb3e28618c783dd334f3",
+        "android_client_info": {
+          "package_name": "com.skein_of_heart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252287405834-pm4dcnebjdd51qr1rm2aui858frhm2cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skein_of_heart",
+            "certificate_hash": "1106c10bb38f95dfddab1027b940248e03a243f8"
+          }
+        },
+        {
+          "client_id": "252287405834-4lsoqvuefbtg4558j31namu9akvcbak9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy_den50wZ4B0Dp7NXFXbEMKpJa6xqR7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252287405834-4lsoqvuefbtg4558j31namu9akvcbak9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
