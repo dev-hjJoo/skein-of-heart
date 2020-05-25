@@ -15,7 +15,7 @@
 * 메인 화면
 * 로그인 버튼-> 사용자 정보로 변경 예정
 
-<img src="image/다이어리1.JPG" width="200px" height="380px"></img><img src="image/다이어리2.JPG" width="200px" height="380px"></img>
+<img src="image/다이어리1.JPG" width="200px" height="380px"></img><img src="image/다이어리3.JPG" width="200px" height="380px"></img>
 
 * 라이브러리 클릭시 다이어리 화면
 * 다이어리 작성 구현 예정
