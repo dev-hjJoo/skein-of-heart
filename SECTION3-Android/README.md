@@ -9,4 +9,4 @@
 2. 감정 분석 기능 구현
 
 ## 다이어리 제작 상황
-<img src="image/메인.JPG" width="200px" height="350px"></img><br/>
+<img src="image/메인.JPG" width="200px" height="380px"></img><br/>
