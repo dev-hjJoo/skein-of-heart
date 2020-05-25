@@ -14,6 +14,8 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.mylibrary.*
+import kotlinx.android.synthetic.main.mylibrary.view.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     private var firebaseAuth: FirebaseAuth? = null
     //라이브러리 설정
     var libraryImg = intArrayOf(R.drawable.library_img1,R.drawable.library_img2)
-    var librarydata = arrayOf("나의 일기", "내일 일기")
+    var librarydata = arrayOf("나의 일기", "오늘 할일")
     var library = ArrayList<HashMap<String, Any>>()
 
 
@@ -64,6 +66,14 @@ class MainActivity : AppCompatActivity() {
 
         var libraryAdapter = SimpleAdapter(this, library, R.layout.mylibrary, keys, ids)
         libraryList.adapter = libraryAdapter
+
+        //일기장 클릭 리스너
+        libraryList.setOnItemClickListener { parent, view, position, id ->
+            val intent = Intent(this, DiaryActivity::class.java)// 인텐트 객체 생성
+            intent.putExtra("librarynum", position)
+            intent.putExtra("libraryname", view.libraryName.text.toString())
+            startActivity(intent)
+        }
     }
 
     //로그인 fun

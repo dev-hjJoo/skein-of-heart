@@ -16,7 +16,7 @@
       "oauth_client": [
         {
           "client_id": "252287405834-pm4dcnebjdd51qr1rm2aui858frhm2cq.apps.googleusercontent.com",
-          "client_type": 1,
+          "client_type": 3,
           "android_info": {
             "package_name": "com.skein_of_heart",
             "certificate_hash": "1106c10bb38f95dfddab1027b940248e03a243f8"

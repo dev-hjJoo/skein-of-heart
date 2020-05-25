@@ -11,7 +11,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:foregroundGravity="fill_horizontal|center">
+        android:foregroundGravity="center">
 
         <ImageButton
             android:id="@+id/diary_OptBtn"

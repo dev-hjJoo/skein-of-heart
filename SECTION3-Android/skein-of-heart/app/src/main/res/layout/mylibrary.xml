@@ -18,6 +18,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center|top"
         android:layout_marginTop="30dp"
-        android:text="오늘 일기"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 </FrameLayout>
