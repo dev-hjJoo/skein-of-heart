@@ -9,6 +9,5 @@
 2. 감정 분석 기능 구현
 
 ## 다이어리 제작 상황
-![Alt text](/path/to/img.jpg)
-<img src="C:\Users\User\Desktop\image\메인화면.png" width="300px" height="180px" title="px(픽셀) 크기 설정"></img><br/>
+<img src="C:\Users\User\Desktop\image\캡처.jpeg" width="300px" height="180px" title="px(픽셀) 크기 설정"></img><br/>
 
