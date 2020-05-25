@@ -10,5 +10,6 @@
 
 ## 다이어리 제작 상황
 
-<img src="C:\Users\User\Desktop\image\메인.jpeg" width="300px" height="180px"></img><br/>
+<img src="C:\Users\User\Desktop\image\메인.jpeg" width="300px" height="180px">
+![Alt text](C:\Users\User\Desktop\image\메인.jpeg)</img><br/>
 
