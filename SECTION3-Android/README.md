@@ -11,7 +11,7 @@
 ## 다이어리 제작 상황
 <br/>
 <img src="image/메인.JPG" width="200px" height="380px"></img>
-<br/>
+
 * 메인 화면
 * 로그인 버튼-> 사용자 정보로 변경 예정
 <br/><br/>
