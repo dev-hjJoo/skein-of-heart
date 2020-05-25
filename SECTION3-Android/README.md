@@ -9,3 +9,4 @@
 2. 감정 분석 기능 구현
 
 ## 다이어리 제작 상황
+<img src="/image/메인.JPG" width="300px" height="180px"></img><br/>
