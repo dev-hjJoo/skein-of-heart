@@ -9,4 +9,4 @@
 2. 감정 분석 기능 구현
 
 ## 다이어리 제작 상황
-<img src="SECTION3-Android/image/메인.JPG" height="180px"></img><br/>
+<img src="image/메인.JPG" height="180px"></img><br/>
