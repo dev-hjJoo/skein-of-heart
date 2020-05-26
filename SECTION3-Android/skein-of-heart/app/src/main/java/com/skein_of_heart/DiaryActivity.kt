@@ -1,11 +1,10 @@
 package com.skein_of_heart
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_diary.*
-import kotlinx.android.synthetic.main.activity_main.*
 
 class DiaryActivity : AppCompatActivity() {
     // 테스트 다이어리 데이터베이스 예제
@@ -69,10 +68,44 @@ class DiaryActivity : AppCompatActivity() {
         var diaryAdapter = SimpleAdapter(this, diarydata[libraryname], R.layout.diary_img, keys, ids)
         diaryList.adapter = diaryAdapter
 
+        btnDiaryList.setOnClickListener { view ->
+
+        }
+
+
+
+        // fragment 설정
+        var fragmentLoaded = true
+        val manager = supportFragmentManager
+
+
+        fun reset_backstack(){
+                manager.popBackStack()
+        }
+        fun showfragmentdiary(btnId: Int){
+            val transaction = manager.beginTransaction()
+            val fragment = Fragmentdiary(btnId)
+            transaction.replace(R.id.fragmentDiary,fragment)
+            // transaction.addToBackStack(null)
+            transaction.commit()
+
+            manager.backStackEntryCount
+            if (btnId == R.id.btnDiaryList){
+            }
+
+            fragmentLoaded = true
+        }
+
+        btnDiaryList.setOnClickListener {
+            showfragmentdiary(btnDiaryList.id)
+        }
+        btnDiaryData.setOnClickListener {
+            showfragmentdiary(btnDiaryData.id)
+        }
+        btnDiaryOpt.setOnClickListener {
+            showfragmentdiary(btnDiaryOpt.id)
+        }
     }
-
-
-
 
 }
 
