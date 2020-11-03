@@ -1,6 +1,8 @@
 import React from "react";
 import MainPresenter from "./MainPresenter";
 
-const MainContainer = () => {};
+const MainContainer = () => {
+  return <MainPresenter />;
+};
 
 export default MainContainer;
