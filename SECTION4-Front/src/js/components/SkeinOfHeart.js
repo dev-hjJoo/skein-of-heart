@@ -5,5 +5,13 @@ import DiaryWrite from "../screens/diaryWrite";
 import Login from "../screens/login";
 import MyPage from "../screens/myPage";
 
-const SkeinOfHeart = () => {};
+const SkeinOfHeart = () => {
+  return (
+    <>
+      <Main />
+      <DiaryWrite />
+      <DiaryList />
+    </>
+  );
+};
 export default SkeinOfHeart;

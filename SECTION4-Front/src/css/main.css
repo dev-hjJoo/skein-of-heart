@@ -1,0 +1,13 @@
+#main {
+  height: 100vh;
+  justify-content: center;
+}
+
+#main .title {
+  justify-content: center;
+  display: grid;
+}
+
+#main .title .logo {
+  font-size: 80px;
+}
