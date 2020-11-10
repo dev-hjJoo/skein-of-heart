@@ -10,11 +10,21 @@
 </pre>
 * 앱 개발에 대한 학습과 함께 진행하여 부족한 부분이 있을지라도 <b>성장</b>에 초점을 두고 진행합니다.
 
-## SECTION0. Design
+## SECTION0. References
+### 1. background knowledge
+
+### 2. frontend: react
+
+### 3. backend: django
+* [3-1] [django 공식 문서](https://www.djangoproject.com/)
+* [3-2] [django, mysql 연결](https://velog.io/@devmin/Django-MySQL-Connect)
+* [3-3] [django 서버 셋팅 및 프로젝트 시작하기](https://javafa.gitbooks.io/python-django/content/)
+
 ## SECTION1. 아이디어 문서화
 * 스토리보드 및 기획서
 * SWOT분석 & 3C분석
 * 개발 계획서
 ## SECTION2. iOS
 ## SECTION3. Android
-## SECTION4. NLP
+## SECTION4. React
+## SECTION5. Backend: django
