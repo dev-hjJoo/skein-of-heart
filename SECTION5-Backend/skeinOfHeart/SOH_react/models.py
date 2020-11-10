@@ -14,7 +14,7 @@ class Page(models.Model):
 
     # 감정 점수 수치화 값
     emotion_score = models.IntegerField()
-    emotion_state = models.CharField()
+    emotion_state = models.CharField(max_length=10)
 
 # page 묶음
 class Diary(models.Model):
