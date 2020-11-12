@@ -20,4 +20,4 @@
 ## SECTION3. Android
 ## SECTION4. React
 ## SECTION5. Backend: django
-> 코드 가용성을 위해 분리하였습니다. django 코드로 가시려면 👉[🧶](https://github.com/dev-hjJoo/django-SkeinOfHEart-backend)
+> 코드 사용 시 편리성을 위해 분리하였습니다. django 코드로 가시려면 👉[🧶](https://github.com/dev-hjJoo/django-SkeinOfHEart-backend)
